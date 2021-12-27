@@ -41,7 +41,8 @@ else {
         <h5>Local Time: ${localtime}</h5>  
         
         `;
-    }else if(myHttp.status == 400){
+    }
+    if(myHttp.status == 400){
         alert("Please enter correct city name");
         location.reload(true);
     }
