@@ -47,5 +47,5 @@ else {
 
 }
 // myHttp.open("GET" , "http://ritter-cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&apiKey=8d209985597e405cbdd9ac5834954cd6")
-myHttp.open("GET" , `//api.weatherapi.com/v1/current.json?key=823cd5388a4a42879c9141818212712&q=${city}&aqi=no`)
+myHttp.open("GET" , `http://api.weatherapi.com/v1/current.json?key=823cd5388a4a42879c9141818212712&q=${city}&aqi=no`)
 myHttp.send();
